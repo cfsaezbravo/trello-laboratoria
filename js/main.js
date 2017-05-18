@@ -11,15 +11,20 @@
 		var nuevaTarea = document.createElement("li");
 		var enlace = document.createElement("a");
 		var contenido = document.createTextNode(tarea);
- 
+
+	//Agregamos el contenido al enlace
+	enlace.appendChild(contenido);
+ 	enlace.setAttribute("href", "#");
+ 	nuevaTarea.appendChild(enlace);
+ 	lista.appendChild(nuevaTarea);
 	};
 
 	var comprobarInput = function(){
-		alert("comprobando input");
+		
 	}
 
 	var eliminarTarea = function(){
-		alert("eliminando tareas");
+		
 	}
  
 	// Agregar Tarea

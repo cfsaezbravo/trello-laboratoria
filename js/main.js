@@ -8,7 +8,7 @@
 	//Funciones
 	var agregarTarea = function(){
 		var tarea = tareaInput.value;
-		var nuevaTarea = document.createElement("li");
+		var nuevaTarea = document.createElement("div");
 		var enlace = document.createElement("a");
 		var contenido = document.createTextNode(tarea);
 

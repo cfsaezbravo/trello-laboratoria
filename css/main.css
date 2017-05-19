@@ -15,7 +15,7 @@ header {
     background: #026AA7;
 }
 
-#btn-agregar {
+.boton {
 	background-color: #5db449;
     margin-left: 10px;
     color: white;

@@ -9,12 +9,19 @@
 	var agregarTarea = function(){
 		var tarea = tareaInput.value;
 		var nuevaTarea = document.createElement("div");
-		var enlace = document.createElement("a");
+		var enlace = document.createElement("h2");
+		var boton = document.createElement("input");
+		var tareaLista = document.createElement("textarea");
 		var contenido = document.createTextNode(tarea);
 
 	//Agregamos el contenido al enlace
 	enlace.appendChild(contenido);
- 	enlace.setAttribute("href", "#");
+	enlace.appendChild(boton);
+	enlace.appendChild(tareaLista);
+ 	enlace.setAttribute("class", "principal");
+ 	boton.setAttribute("type", "button");
+ 	boton.setAttribute("value", "Añadir");
+ 	boton.setAttribute("class", "boton");
  	nuevaTarea.appendChild(enlace);
  	lista.appendChild(nuevaTarea);
 

@@ -14,3 +14,37 @@ header {
     padding: 10px;
     background: #026AA7;
 }
+
+#btn-agregar {
+	background-color: #5db449;
+    margin-left: 10px;
+    color: white;
+    font-weight: bolder;
+    height: 35px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.principal {
+	background-color: #e2e4e6;
+	display: block;
+	margin: 30px 15px;
+    width: 310px;
+    height: 90px;
+    border: none;
+    border-radius: 5px;
+}
+
+#tareaInput {
+	width: 280px;
+	margin: 10px;
+    background-color: white;
+    user-select: text;
+    padding: 5px;
+    border-width: 1px;
+    border-style: inset;
+    border-radius: 5px;
+}

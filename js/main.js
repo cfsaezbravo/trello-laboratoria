@@ -17,6 +17,8 @@
  	enlace.setAttribute("href", "#");
  	nuevaTarea.appendChild(enlace);
  	lista.appendChild(nuevaTarea);
+
+ 	tareaInput.value = "";
 	};
 
 	var comprobarInput = function(){
